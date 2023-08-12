@@ -1,8 +1,8 @@
-## <font color="yellow"> Introduction to JavaScript: </font>
+## Introduction to JavaScript:
 
 > JavaScript is a versatile programming language commonly used for web development. It allows you to add interactivity, animations, and dynamic behavior to websites. It can also be used on the server-side using a runtime environment called Node.js.
 
-## <font color="yellow"> Setting Up Node.js Environment on Windows 10:</font>
+##  Setting Up Node.js Environment on Windows 10:
 
 ### Step 1: Install Node.js:
 
@@ -69,4 +69,4 @@
 
       You should see the output "Hello, world!" displayed in the console.
 
-   ####  <font color="yellow"> Congratulations! You've successfully set up a Node.js environment on Windows 10 and written and run your first JavaScript code. </font>
+   ####  Congratulations! You've successfully set up a Node.js environment on Windows 10 and written and run your first JavaScript code.
