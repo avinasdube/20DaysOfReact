@@ -221,4 +221,110 @@ function sum(...numbers) {          // Rest operator
 console.log(sum(1, 2, 3));          // Outputs: 6
 ```
 
+## Control Flow in JavaScript :
+
+> Control flow in JavaScript refers to the order in which statements are executed based on conditions and loops. It allows you to control the execution path of your code, making it more dynamic and responsive. Here are the main control flow structures in JavaScript with examples:
+
+### 1. **Conditional Statements (`if`, `else if`, `else`):**
+
+> Conditional statements allow you to execute different blocks of code based on conditions.
+
+```javascript
+let age = 20;
+
+if (age < 18) {
+    console.log("You are a minor.");
+} else if (age >= 18 && age < 60) {
+    console.log("You are an adult.");
+} else {
+    console.log("You are a senior citizen.");
+}
+```
+
+### 2. **Switch Statement:**
+
+> The switch statement provides a way to choose between multiple options based on a single value.
+
+```javascript
+let day = "Monday";
+
+switch (day) {
+    case "Monday":
+        console.log("It's the start of the week.");
+        break;
+    case "Friday":
+        console.log("It's almost the weekend!");
+        break;
+    default:
+        console.log("It's a regular day.");
+}
+```
+### 3. **Ternary Operator:**
+
+> The ternary operator is a shorthand way to write simple if-else conditions.
+
+```javascript
+let isSunny = true;
+let weatherMessage = isSunny ? "Enjoy the sunshine!" : "Take an umbrella.";
+console.log(weatherMessage);
+```
+
+### 4. **Loops (for, while, do-while):**
+
+> Loops allow you to repeat a block of code until a condition is met.
+
+#### (a). For Loop:
+
+```javascript
+for (let i = 0; i < 5; i++) {
+    console.log("Iteration:", i);
+}
+```
+
+#### (b). While Loop:
+
+```javascript
+let count = 0;
+
+while (count < 3) {
+    console.log("Count:", count);
+    count++;
+}
+```
+
+#### (c). Do While Loop:
+
+```javascript
+let num = 5;
+
+do {
+    console.log("Number:", num);
+    num--;
+} while (num > 0);
+```
+
+### 5. **Break and Continue:**
+
+> The break statement is used to exit a loop, and the continue statement is used to skip the current iteration and move to the next.
+
+```javascript
+for (let i = 0; i < 5; i++) {
+    if (i === 3) {
+        break; // Exit the loop when i is 3
+    }
+    console.log("Iteration:", i);
+}
+
+for (let i = 0; i < 5; i++) {
+    if (i === 2) {
+        continue; // Skip iteration when i is 2
+    }
+    console.log("Iteration:", i);
+}
+```
+
+
+
+
+
 
